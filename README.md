@@ -1,8 +1,8 @@
 # Unity MLAgents - Hummingbird
 
-This project is a study on Unity's MLAgents Toolkit based on the online course ML-Agents: Hummingbirds available on Unity Learn page [link here]. Taught by Adam Kelly, the course gives a great starting point to learn MLAgents, so if you're interested please check it out here[link].
+This project is a study on Unity's MLAgents Toolkit based on the online course ML-Agents: Hummingbirds available on [Unity Learn page](https://learn.unity.com/). Taught by Adam Kelly, the course gives a great starting point to learn MLAgents, so if you're interested please check it out [here](https://learn.unity.com/course/ml-agents-hummingbirds).
 
-The following requirements are based on the current version of this project. To use the latest version of MLAgents, please check out the official documentation to address any issues regarding file formats and other incompatibilities.
+The following requirements are based on the current version of this project. To use the latest version of MLAgents, please check out the [official documentation](https://github.com/Unity-Technologies/ml-agents) to address any issues regarding file formats and other incompatibilities.
 #
 ### Requirements
 * Unity (2018.4 or later)
@@ -10,7 +10,7 @@ The following requirements are based on the current version of this project. To 
 * MLAgents Package (1.0.7)
 
 ### Requirements to train a neural network
-* Anaconda (1.7.2 or later) [https://www.anaconda.com/products/individual#Downloads]
+* Anaconda (1.7.2 or later)
 * Pytorch (1.7.1 or later)
 * Python mlagents (0.20.0)
 #
