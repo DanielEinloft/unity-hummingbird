@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1623671820",
+        "python_version": "3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Poatek\\anaconda3\\envs\\ml-agents-1.0\\Scripts\\mlagents-learn ./trainer_config.yaml --run-id hb_01 --resume",
+        "mlagents_version": "0.20.0",
+        "mlagents_envs_version": "0.20.0",
+        "communication_protocol_version": "1.1.0",
+        "tensorflow_version": "2.3.2",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1623671825"
+    },
+    "total": 4.723372299999999,
+    "count": 1,
+    "self": 0.1902443999999992,
+    "children": {
+        "run_training.setup": {
+            "total": 0.023668199999999917,
+            "count": 1,
+            "self": 0.023668199999999917
+        },
+        "TrainerController.start_learning": {
+            "total": 4.509459700000001,
+            "count": 1,
+            "self": 0.0001650000000008589,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.2891622,
+                    "count": 1,
+                    "self": 4.2891622
+                },
+                "TrainerController._save_models": {
+                    "total": 0.22013250000000006,
+                    "count": 1,
+                    "self": 1.7299999999664806e-05,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.2201152000000004,
+                            "count": 1,
+                            "self": 0.2201152000000004
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
